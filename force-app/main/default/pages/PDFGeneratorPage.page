@@ -1,0 +1,4 @@
+<apex:page renderAs="pdf" contentType="application/pdf" applyBodyTag="false" showHeader="false" sidebar="false" controller="PDFGeneratorController">
+    <h1 style="font-family:sans-serif">PDF for: {!recordName}</h1>
+    <p>This PDF is generated for the record: {!recordId}</p>
+</apex:page>

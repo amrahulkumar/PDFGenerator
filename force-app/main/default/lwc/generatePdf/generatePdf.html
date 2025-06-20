@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="PDF Generator">
+        <lightning-button
+            label="Generate PDF"
+            onclick={handleGeneratePdf}
+            variant="brand"
+        ></lightning-button>
+        <template if:true={pdfUrl}>
+            <p class="slds-m-top_medium">Your PDF is ready:</p>
+            <a href={pdfUrl} target="_blank">Download PDF</a>
+        </template>
+    </lightning-card>
+</template>
