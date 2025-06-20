@@ -11,9 +11,8 @@ config/
 .localdevserver/
 deploy-options.json
 
-#some other not requierd
+#misc
 .forceignore
-sfdx-project.json
 .prettierignore
 .prettierrc
 jest.config.js
